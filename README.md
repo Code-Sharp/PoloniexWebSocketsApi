@@ -1,6 +1,10 @@
 # PoloniexWebSocketsApi
 A C# wrapper for the Poloniex WebSockets api
 
+## NuGet package
+
+This package is available on NuGet.org under the name [PoloniexWebSocketsApi](https://www.nuget.org/packages/PoloniexWebSocketsApi).
+
 ## Usage example
 
 Check [this JavaScript file](https://poloniex.com/js/plx_exchage.js?v=060617) for api reference.

@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace PoloniexApi
+namespace PoloniexWebSocketsApi
 {
     public delegate void MessageArrivedDelegate(JsonSerializer serializer, object message);
 }

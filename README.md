@@ -1,4 +1,4 @@
-# PoloniexApi
+# PoloniexWebSocketsApi
 A C# wrapper for the Poloniex WebSockets api
 
 ## Usage example

@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace PoloniexApi
+namespace PoloniexWebSocketsApi
 {
     [DataContract]
     public class PoloniexCommand

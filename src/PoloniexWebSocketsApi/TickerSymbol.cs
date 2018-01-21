@@ -1,4 +1,4 @@
-﻿namespace PoloniexApi
+﻿namespace PoloniexWebSocketsApi
 {
     public static class TickerSymbol
     {

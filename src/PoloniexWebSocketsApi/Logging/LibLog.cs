@@ -40,6 +40,7 @@
 #pragma warning disable 1591
 
 using System.Diagnostics.CodeAnalysis;
+using PoloniexWebSocketsApi.Logging.LogProviders;
 
 [assembly: SuppressMessage("Microsoft.Design", "CA1020:AvoidNamespacesWithFewTypes", Scope = "namespace", Target = "PoloniexApi.Logging")]
 [assembly: SuppressMessage("Microsoft.Design", "CA1026:DefaultParametersShouldNotBeUsed", Scope = "member", Target = "PoloniexApi.Logging.Logger.#Invoke(PoloniexApi.Logging.LogLevel,System.Func`1<System.String>,System.Exception,System.Object[])")]
@@ -49,7 +50,7 @@ using System.Diagnostics.CodeAnalysis;
 #if LIBLOG_PROVIDERS_ONLY
 namespace PoloniexApi.LibLog
 #else
-namespace PoloniexApi.Logging
+namespace PoloniexWebSocketsApi.Logging
 #endif
 {
     using System.Collections.Generic;
@@ -57,7 +58,7 @@ namespace PoloniexApi.Logging
 #if LIBLOG_PROVIDERS_ONLY
     using PoloniexApi.LibLog.LogProviders;
 #else
-    using PoloniexApi.Logging.LogProviders;
+    using PoloniexWebSocketsApi.Logging.LogProviders;
 #endif
     using System;
 #if !LIBLOG_PROVIDERS_ONLY
@@ -866,7 +867,7 @@ namespace PoloniexApi.Logging
 #if LIBLOG_PROVIDERS_ONLY
 namespace PoloniexApi.LibLog.LogProviders
 #else
-namespace PoloniexApi.Logging.LogProviders
+namespace PoloniexWebSocketsApi.Logging.LogProviders
 #endif
 {
     using System;

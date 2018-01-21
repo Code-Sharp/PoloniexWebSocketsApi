@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
-using PoloniexApi.Logging;
+using PoloniexWebSocketsApi.Logging;
 
-namespace PoloniexApi
+namespace PoloniexWebSocketsApi
 {
     // Based on this sample:
     // https://code.msdn.microsoft.com/vstudio/The-simple-WebSocket-4524921c

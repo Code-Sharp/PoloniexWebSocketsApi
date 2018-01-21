@@ -12,6 +12,7 @@
     <RepositoryType>git</RepositoryType>
     <PackageTags>Poloniex</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>A .NET Standard 2.0 wrapper for the Poloniex WebSockets api</Description>
   </PropertyGroup>
 
   <ItemGroup>

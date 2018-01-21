@@ -182,7 +182,7 @@ namespace PoloniexApi
 
         private bool IsConnected => mWebSocket.State == WebSocketState.Open;
 
-        public event Action<JsonSerializer, object> MessageArrived;
+        public event MessageArrivedDelegate MessageArrived;
 
         public event Action ConnectionClosed;
 
